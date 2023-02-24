@@ -2,10 +2,34 @@
 
 
 
-.fondoHeader{
-    background-color: burlywood;
-}
+
+
 
 h1 {
     background-color: rosybrown;
+}
+
+h4 {
+    color: chocolate;
+    text-align: center;
+    
+}
+.blog ul {
+    color: bisque;
+}
+
+nav {
+    background-image: url("../img/espacio.jpg");
+
+}
+
+.botonMio {
+    background-color: azure; 
+    color: rosybrown;
+}
+
+.botonMio:hover {
+    background-color: azure;
+    color: chocolate;
+    border: 1px solid chocolate;
 }
