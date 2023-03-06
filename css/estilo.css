@@ -1,25 +1,92 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+  
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.videoCelta {
+    font-family: 'Shadows Into Light', cursive;
+    
+}
 
-
+.logoMio {
+    width: 20%;
+    height: 20%;   
+}
 
 h1 {
+    color: rosybrown;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+h2 {
+    color: black;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.contenedor {
+    background-image: url(../img/meditation.jpg);
+    height: 100vh;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: 1fr, 1fr;
+    grid-template-areas: "caja1 caja2";
+    
+}
+
+.caja {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.biowhite {
+    color: bisque;
+}
+
+
+
+    
+.fondoHeader{
+    background-image: url(../img/espacio.jpg);
+}
+
+
+.card {
     background-color: rosybrown;
 }
 
 h4 {
     color: chocolate;
     text-align: center;
+    font-family: 'Shadows Into Light', cursive;
     
 }
-.blog ul {
-    color: bisque;
+h3 {
+    font-family: 'Shadows Into Light', cursive;
+    color: rosybrown;
 }
 
-nav {
-    background-image: url("../img/espacio.jpg");
+.list-group-item1 {
+    background-color: lightyellow;
+
+}
+
+
+
+
+.nav-link {
+    color: rosybrown;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 
 }
 
@@ -32,4 +99,17 @@ nav {
     background-color: azure;
     color: chocolate;
     border: 1px solid chocolate;
+
 }
+.botomIcons {
+    color: blue;
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
