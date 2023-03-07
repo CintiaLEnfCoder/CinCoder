@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
   
 
@@ -63,24 +62,12 @@ h2 {
     background-color: rosybrown;
 }
 
-h4 {
-    color: chocolate;
-    text-align: center;
-    font-family: 'Shadows Into Light', cursive;
-    
-}
-h3 {
-    font-family: 'Shadows Into Light', cursive;
-    color: rosybrown;
-}
+
 
 .list-group-item1 {
     background-color: lightyellow;
 
 }
-
-
-
 
 .nav-link {
     color: rosybrown;
@@ -110,6 +97,7 @@ h3 {
     align-items: center;
     
 }
+
 
 
 
