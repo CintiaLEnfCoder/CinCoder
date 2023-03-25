@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
   
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 0;
 }
 
 .videoCelta {
@@ -28,16 +27,27 @@ h2 {
     color: black;
     font-family: 'Shadows Into Light', cursive;
 }
+.titulo2 {
+    color: #E5F2FA;
+}
 
+.parrafo {
+    font-size: large;
+    color: #E5F2FA  ;
+    
+}
+.parrafo1 {
+    color: black;
+}
 .contenedor {
     background-image: url(../img/meditation.jpg);
     height: 100vh;
-    border: 2px solid black;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row: 1fr, 1fr;
-    grid-template-areas: "caja1 caja2";
-    
+    border: 3px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color: #AEB6BF;
+    margin-top: 50px;
 }
 
 .caja {
@@ -45,36 +55,92 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .biowhite {
     color: bisque;
 }
 
-
-
-    
 .fondoHeader{
     background-image: url(../img/espacio.jpg);
 }
+.fondoindex {
+    background-color: #FADBD8;
+}
+.fondoblog {
+    background-image: url(../img/mar2.jpg);
+}
 
+.fondohistoria {
+    background-image: url(../img/montaña.jpg);
+}
+.fondocosmos {
+    background-image: url(../img/atardecer.jpg);
+}
+.fondocarrito {
+    background-color: rosybrown;
+
+}
+
+.fondocarrito {
+    background-color: #FADBD8;
+}
+
+.fondocontacto {
+    background-color: #F1948A;
+}
+.doshasAyur {
+    color: #E5F2FA  ;
+    
+
+}
+
+.fondofooter {
+    background-color: #E3E9ED ;
+    text-align: center;
+}
 
 .card {
     background-color: rosybrown;
 }
 
-
+h4 {
+    color: chocolate;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: #E5E7E9;
+    font-size: small;
+    
+}
 
 .list-group-item1 {
     background-color: lightyellow;
+    text-align: center;
 
 }
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+
+
 
 .nav-link {
     color: rosybrown;
     display: flex;
     width: 100%;
     justify-content: space-around;
+    
 
+}
+.nav-link:hover {
+    background-color: #F4D3DE;
 }
 
 .botonMio {
@@ -89,15 +155,44 @@ h2 {
 
 }
 .botomIcons {
-    color: blue;
+    color: violet;
     min-height: 3rem;
     display: flex;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
     
+    
+} 
+.botomIcons:hover {
+    border-radius: 50px;
+    transform: scale(1.0);
+    transition: 0.3s;
+    text-align: center;
 }
 
 
-
-
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height: 60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+  .whatsapp-icon:hover {
+    background-color: #25d366;
+    color: #FFF;
+    border: 1px solid #25d366;
+    transform: scale(1.1);
+    transition: 0.3s;
+  }

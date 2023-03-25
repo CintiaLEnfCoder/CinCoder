@@ -22,20 +22,13 @@ h1 {
 .fondoHeader{
     background-image: url(../img/espacio.jpg);
 }
-.contenedor {
-    background-image: url(../img/meditation.jpg);
-    height: 100vh;
-    border: 2px solid black;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row: 1fr, 1fr;
-    grid-template-areas: "caja1 caja2";
+
     
-}
+
 .logoMio {
     width: 20%;
     height: 20%;   
 }
-
-
 }
+
+

@@ -18,4 +18,30 @@
     font-family: 'Shadows Into Light', cursive;
     
 }
+$color_1: #FFF;
+$background-color_1: #25d366;
+
+.whatsapp {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: $background-color_1;
+	color: $color_1;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	z-index: 100;
+}
+.whatsapp-icon {
+	margin-top: 13px;
+	&:hover {
+		background-color: $background-color_1;
+		color: $color_1;
+		border: 1px solid #25d366;
+		transform: scale(1.1);
+		transition: 0.3s;
+	}
+}
 

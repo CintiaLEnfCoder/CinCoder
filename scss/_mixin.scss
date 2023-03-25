@@ -1,0 +1,7 @@
+@mixin links1 {
+    text-decoration: none;
+    color: black;
+}
+.links {
+    @mixin links1
+}
